@@ -2,6 +2,9 @@
     "place": [{
         "name": "name1",
         "image": "",
-        "type": "TRANSPORT"
+        "type": "TRANSPORT",
+        "coordinates": [-6.348981857299805,
+            32.33602468105996
+        ]
     }]
 }
