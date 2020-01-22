@@ -9,6 +9,7 @@ import { SignupComponent } from './signup/signup.component';
 import { HeaderComponent } from './landing/header/header.component';
 import { AboutComponent } from './landing/about/about.component';
 import { GuideComponent } from './landing/guide/guide.component';
+import { AboutUsComponent } from './landing/about-us/about-us.component';
 
 @NgModule({
     imports: [
@@ -22,7 +23,8 @@ import { GuideComponent } from './landing/guide/guide.component';
         ProfileComponent,
         HeaderComponent,
         AboutComponent,
-        GuideComponent
+        GuideComponent,
+        AboutUsComponent
     ]
 })
 export class ExamplesModule { }
