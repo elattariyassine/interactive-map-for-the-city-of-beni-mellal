@@ -12,6 +12,7 @@ import { GuideComponent } from './landing/guide/guide.component';
 import { AboutUsComponent } from './landing/about-us/about-us.component';
 import { KeepInTouchComponent } from './landing/keep-in-touch/keep-in-touch.component';
 import { PlanInfoComponent } from './landing/plan-info/plan-info.component';
+import { MapComponent } from './landing/map/map.component';
 
 @NgModule({
     imports: [
@@ -28,7 +29,8 @@ import { PlanInfoComponent } from './landing/plan-info/plan-info.component';
         GuideComponent,
         AboutUsComponent,
         KeepInTouchComponent,
-        PlanInfoComponent
+        PlanInfoComponent,
+        MapComponent
     ]
 })
 export class ExamplesModule { }
