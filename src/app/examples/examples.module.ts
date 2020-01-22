@@ -11,6 +11,7 @@ import { AboutComponent } from './landing/about/about.component';
 import { GuideComponent } from './landing/guide/guide.component';
 import { AboutUsComponent } from './landing/about-us/about-us.component';
 import { KeepInTouchComponent } from './landing/keep-in-touch/keep-in-touch.component';
+import { PlanInfoComponent } from './landing/plan-info/plan-info.component';
 
 @NgModule({
     imports: [
@@ -26,7 +27,8 @@ import { KeepInTouchComponent } from './landing/keep-in-touch/keep-in-touch.comp
         AboutComponent,
         GuideComponent,
         AboutUsComponent,
-        KeepInTouchComponent
+        KeepInTouchComponent,
+        PlanInfoComponent
     ]
 })
 export class ExamplesModule { }
