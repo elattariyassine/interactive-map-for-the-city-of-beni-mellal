@@ -1,4 +1,4 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit, Input } from '@angular/core';
 import { MapService } from 'app/_services/map.service';
 import * as L from 'leaflet';
 
@@ -10,13 +10,15 @@ import * as L from 'leaflet';
 })
 export class MapComponent implements AfterViewInit {
 
+  @Input() placeType: string;
+
   private map;
 
   constructor(private mapService: MapService) { }
 
   ngAfterViewInit(): void {
     this.initMap();
-    this.mapService.makePlacesMarkers(this.map, "A");
+    this.mapService.makePlacesMarkers(this.map, this.placeType);
   }
 
   private initMap(): void {
@@ -34,5 +36,4 @@ export class MapComponent implements AfterViewInit {
   tiles.addTo(this.map);
   }
  
-
 }

@@ -8,12 +8,14 @@
             <ngb-tabset [justify]="'center'">
                 <ngb-tab title="La ville de Béni Mellal">
                     <ng-template ngbTabContent>
-                        <app-map></app-map>
+                        <div #fullScreen>
+                            <app-map [placeType]="Allplaces"></app-map>
+                        </div>
                     </ng-template>
                 </ngb-tab>
                 <ngb-tab title="QUE VOIRE">
                     <ng-template ngbTabContent>
-                        <img class="img-fluid" src="../../../../assets/img/map.jpg" alt="">
+                        <app-map [placeType]="placeQueVoire"></app-map>
                     </ng-template>
                 </ngb-tab>
                 <ngb-tab title="TRANSPORT">
@@ -39,5 +41,5 @@
             </ngb-tabset>
         </div>
     </div>
-
+    <button class="btn btn-warning btn-round text-center" (click)="onFullScreen($event)">Ouvrir en plein écran</button>
 </div>
