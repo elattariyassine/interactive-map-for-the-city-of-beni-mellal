@@ -15,6 +15,11 @@ export class GuideComponent implements OnInit {
 
   Allplaces = "all"
   placeQueVoire = "que voire"
+  transport = "transport"
+  OuManger = "ouManger"
+  shopping = "shopping"
+  OuDormir = "ouDormir"
+  visiteTouristique = "visiteTouristique"
 
 
   onFullScreen(evt){

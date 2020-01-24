@@ -15,27 +15,44 @@
                 </ngb-tab>
                 <ngb-tab title="QUE VOIRE">
                     <ng-template ngbTabContent>
-                        <app-map [placeType]="placeQueVoire"></app-map>
+                        <div #fullScreen>
+                            <app-map [placeType]="placeQueVoire"></app-map>
+                        </div>
                     </ng-template>
                 </ngb-tab>
                 <ngb-tab title="TRANSPORT">
                     <ng-template ngbTabContent>
-                        <p>Here are your messages.</p>
+                        <div #fullScreen>
+                            <app-map [placeType]="transport"></app-map>
+                        </div>
                     </ng-template>
                 </ngb-tab>
                 <ngb-tab title="OÙ MANGER">
                     <ng-template ngbTabContent>
-                        <p>Here is your profile.</p>
+                        <div #fullScreen>
+                            <app-map [placeType]="OuManger"></app-map>
+                        </div>
                     </ng-template>
                 </ngb-tab>
                 <ngb-tab title="SHOPPING">
                     <ng-template ngbTabContent>
-                        <p>Here are your messages.</p>
+                        <div #fullScreen>
+                            <app-map [placeType]="shopping"></app-map>
+                        </div>
                     </ng-template>
                 </ngb-tab>
                 <ngb-tab title="OÙ DORMIR">
                     <ng-template ngbTabContent>
-                        <p>Here are your messages.</p>
+                        <div #fullScreen>
+                            <app-map [placeType]="OuDormir"></app-map>
+                        </div>
+                    </ng-template>
+                </ngb-tab>
+                <ngb-tab title="VISITE TOURISTIQUE">
+                    <ng-template ngbTabContent>
+                        <div #fullScreen>
+                            <app-map [placeType]="visiteTouristique"></app-map>
+                        </div>
                     </ng-template>
                 </ngb-tab>
             </ngb-tabset>
