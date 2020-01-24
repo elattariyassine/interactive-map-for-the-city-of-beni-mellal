@@ -1,10 +1,9 @@
 {
-    "name": "paper-kit-2-angular",
-    "version": "1.2.0",
-    "license": "MIT",
+    "name": "interactive-map-for-the-city-of-beni-mellal",
+    "version": "1.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/creativetimofficial/pk2-angular.git"
+        "url": "https://github.com/ELATTARIYassine/interactive-map-for-the-city-of-beni-mellal"
     },
     "scripts": {
         "ng": "ng",
