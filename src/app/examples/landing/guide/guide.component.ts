@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-guide',
@@ -12,7 +12,11 @@ export class GuideComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  @HostListener('document:keydown.escape', ['$event']) onKeydownHandler(event: KeyboardEvent) {
+    //console.log(event);
+    (document.querySelector('#map') as HTMLElement).style.height = '500px';
+    console.log((document.querySelector('#map') as HTMLElement).style.height);
+  }
   Allplaces = "all"
   placeQueVoire = "que voire"
   transport = "transport"
