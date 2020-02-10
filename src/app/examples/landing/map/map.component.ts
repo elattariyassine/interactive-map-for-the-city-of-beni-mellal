@@ -26,7 +26,8 @@ export class MapComponent implements AfterViewInit {
       //   https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}
       //   https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
       //   https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png
-      const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?access_token={accessToken}', {
+      //  last one used https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+      const tiles = L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png?access_token={accessToken}', {
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       accessToken: 'pk.eyJ1IjoiZXJ3aW5yYXJlIiwiYSI6ImNrNW56eXkzdzExazIzanFwa3ptbmd2ZjQifQ.W-hmr4OR8LyBvM9j8AgSHw',
