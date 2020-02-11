@@ -79,14 +79,14 @@
         {
             "name": "Hotel Alicanté",
             "image": "http://www.cesar-marrakech.com/wp-content/uploads/2017/08/slide-hotel-cesar-2.jpg",
-            "type": "A",
+            "type": "que voire",
             "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
             "coordinates": [-6.356660, 32.340009]
         },
         {
             "name": "Agence inwi - Moutanabi",
             "image": "https://static.lematin.ma/files/lematin/images/articles/2016/12/Personnaliser-son-numero-GSM-B.jpg",
-            "type": "A",
+            "type": "que voire",
             "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
             "coordinates": [-6.362939, 32.335900]
         }
