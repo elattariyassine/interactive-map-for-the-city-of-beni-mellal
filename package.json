@@ -1,5 +1,6 @@
 {
     "name": "interactive-map-for-the-city-of-beni-mellal",
+    "version": "1",
     "repository": {
         "type": "git",
         "url": "https://github.com/ELATTARIYassine/interactive-map-for-the-city-of-beni-mellal"
