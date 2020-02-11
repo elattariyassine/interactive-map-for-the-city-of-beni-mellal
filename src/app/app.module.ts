@@ -9,26 +9,37 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-import { ComponentsModule } from './components/components.module';
-import { ExamplesModule } from './examples/examples.module';
-
 import { MapService } from './_services/map.service';
 import { HttpClientModule } from '@angular/common/http';
+import { LandingComponent } from './examples/landing/landing.component';
+import { AboutComponent } from './examples/landing/about/about.component';
+import { AboutUsComponent } from './examples/landing/about-us/about-us.component';
+import { HeaderComponent } from './examples/landing/header/header.component';
+import { MapComponent } from './examples/landing/map/map.component';
+import { PlanInfoComponent } from './examples/landing/plan-info/plan-info.component';
+import { KeepInTouchComponent } from './examples/landing/keep-in-touch/keep-in-touch.component';
+import { GuideComponent } from './examples/landing/guide/guide.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    LandingComponent,
+    AboutComponent,
+    AboutUsComponent,
+    HeaderComponent,
+    MapComponent,
+    PlanInfoComponent,
+    KeepInTouchComponent,
+    GuideComponent
   ],
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
     FormsModule,
     RouterModule,
-    ComponentsModule,
-    ExamplesModule,
     AppRoutingModule,
     HttpClientModule
   ],
