@@ -1,94 +1,136 @@
 {
-    "markers": [{
-            "name": "Jardin massira khadra",
-            "image": "https://www.riu.com/en/binaris/piscina-hotel-riu-tikida-garden_tcm55-186246.jpg?v=tm091019_1320",
-            "type": "B",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.356406211853027,
-                32.3349731269198
-            ]
-        },
-        {
-            "name": "Stade de béni Mellal",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Estadio_Santiago_Bernab%C3%A9u_12.jpg",
-            "type": "A",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.356213092803954,
-                32.331383246607025
-            ]
-        },
-        {
-            "name": "Lycée Hassan 2",
-            "image": "https://killara-h.schools.nsw.gov.au/wp-content/themes/kh/dist/assets/images/captains-with-group.jpg",
-            "type": "A",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.364045143127441,
-                32.3271767410611
-            ]
-        },
-        {
-            "name": "McDonald's",
-            "image": "https://www.bfmtv.com/i/0/0/541/50c1f47eac0b27d758236b831be2e.jpeg",
-            "type": "A",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.368014812469482,
-                32.33033163854463
-            ]
-        },
-        {
-            "name": "Supermarché Acima",
-            "image": "https://orientation-chabab.com/img-emploi/620-310-452.png",
-            "type": "que voire",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.366598606109619,
-                32.33016845688834
-            ]
-        },
-        {
-            "name": "Mosquée Arrahmane",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS93Sb3dEV1saLtaC7HzJJEtIQGKBdo3LPDMKomPXutypREMDK3",
-            "type": "A",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.355376243591309,
-                32.33209035550415
-            ]
-        },
-        {
-            "name": "Hotel Gharnata",
-            "image": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/50475758.jpg?k=283aab08473e1542ad1434ecda7f060dfba4460a735e0eff39a951ba29de0b12&o=",
-            "type": "A",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.358680725097656,
-                32.334266040542325
-            ]
-        },
-        {
-            "name": "Defacto",
-            "image": "https://1.bp.blogspot.com/-vHFEWGppzpI/XQjC7MfZzjI/AAAAAAAAHIo/1zBhNA9JrCoywkt9bgpS56YQvrD5MetDACLcBGAs/s1600/IMG-20190613-WA0011.jpg",
-            "type": "A",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.356186, 32.336328]
-        },
-        {
-            "name": "Supratour Beni Mellal",
-            "image": "http://www.marrakechtickets.co.uk/wp-content/uploads/2014/03/supratours-bus-marrakech.jpg",
-            "type": "A",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.354361, 32.336457]
-        },
-        {
-            "name": "Hotel Alicanté",
-            "image": "http://www.cesar-marrakech.com/wp-content/uploads/2017/08/slide-hotel-cesar-2.jpg",
-            "type": "que voire",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.356660, 32.340009]
-        },
-        {
-            "name": "Agence inwi - Moutanabi",
-            "image": "https://static.lematin.ma/files/lematin/images/articles/2016/12/Personnaliser-son-numero-GSM-B.jpg",
-            "type": "que voire",
-            "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
-            "coordinates": [-6.362939, 32.335900]
-        }
-    ]
+  "markers": [
+    {
+      "coordinates": [
+        "-6.356406211853027",
+        "32.3349731269198"
+      ],
+      "name": "Jardin massira khadra",
+      "image": "https://www.riu.com/en/binaris/piscina-hotel-riu-tikida-garden_tcm55-186246.jpg?v=tm091019_1320",
+      "type": "que voire",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 1
+    },
+    {
+      "coordinates": [
+        " -6.318894",
+        "32.376133"
+      ],
+      "name": "Faculté polydisciplinaire de beni mellal",
+      "image": "https://www.petitfute.com/medias/professionnel/328722/premium/600_450/282991-cambridge-harvard-university-campus.jpg",
+      "type": "que voire",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 2
+    },
+    {
+      "coordinates": [
+        "-6.356213092803954",
+        "32.331383246607025"
+      ],
+      "name": "Stade de béni Mellal",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Estadio_Santiago_Bernab%C3%A9u_12.jpg",
+      "type": "que voire",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 3
+    },
+    {
+      "coordinates": [
+        "-6.364045143127441",
+        "32.3271767410611"
+      ],
+      "name": "Lycée Hassan 2",
+      "image": "https://killara-h.schools.nsw.gov.au/wp-content/themes/kh/dist/assets/images/captains-with-group.jpg",
+      "type": "Ou dormir",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 4
+    },
+    {
+      "coordinates": [
+        "-6.368014812469482",
+        "32.33033163854463"
+      ],
+      "name": "McDonald's",
+      "image": "https://www.bfmtv.com/i/0/0/541/50c1f47eac0b27d758236b831be2e.jpeg",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "type": "Ou manger",
+      "id": 5
+    },
+    {
+      "coordinates": [
+        "-6.366598606109619",
+        "32.33016845688834"
+      ],
+      "name": "Supermarché Acima",
+      "image": "https://orientation-chabab.com/img-emploi/620-310-452.png",
+      "type": "shopping",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 6
+    },
+    {
+      "coordinates": [
+        "-6.355376243591309",
+        "32.33209035550415"
+      ],
+      "name": "Mosquée Arrahmane",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS93Sb3dEV1saLtaC7HzJJEtIQGKBdo3LPDMKomPXutypREMDK3",
+      "type": "visite touristique",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 7
+    },
+    {
+      "coordinates": [
+        "-6.358680725097656",
+        "32.334266040542325"
+      ],
+      "name": "Hotel Gharnata",
+      "image": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/50475758.jpg?k=283aab08473e1542ad1434ecda7f060dfba4460a735e0eff39a951ba29de0b12&o=",
+      "type": "Ou dormir",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 8
+    },
+    {
+      "coordinates": [
+        "-6.356186",
+        "32.336328"
+      ],
+      "name": "Defacto",
+      "image": "https://1.bp.blogspot.com/-vHFEWGppzpI/XQjC7MfZzjI/AAAAAAAAHIo/1zBhNA9JrCoywkt9bgpS56YQvrD5MetDACLcBGAs/s1600/IMG-20190613-WA0011.jpg",
+      "type": "shopping",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 9
+    },
+    {
+      "coordinates": [
+        "-6.354361",
+        "32.336457"
+      ],
+      "name": "Supratour Beni Mellal",
+      "image": "http://www.marrakechtickets.co.uk/wp-content/uploads/2014/03/supratours-bus-marrakech.jpg",
+      "type": "transport",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 10
+    },
+    {
+      "coordinates": [
+        "-6.356660",
+        "32.340009"
+      ],
+      "name": "Hotel Alicanté",
+      "image": "http://www.cesar-marrakech.com/wp-content/uploads/2017/08/slide-hotel-cesar-2.jpg",
+      "type": "Ou dormir",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 11
+    },
+    {
+      "coordinates": [
+        "-6.362939",
+        "32.335900"
+      ],
+      "name": "Agence inwi - Moutanabi",
+      "image": "https://static.lematin.ma/files/lematin/images/articles/2016/12/Personnaliser-son-numero-GSM-B.jpg",
+      "type": "que voire",
+      "description": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.",
+      "id": 12
+    }
+  ]
 }

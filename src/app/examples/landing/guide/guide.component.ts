@@ -20,10 +20,10 @@ export class GuideComponent implements OnInit {
   Allplaces = "all"
   placeQueVoire = "que voire"
   transport = "transport"
-  OuManger = "ouManger"
+  OuManger = "Ou manger"
   shopping = "shopping"
-  OuDormir = "ouDormir"
-  visiteTouristique = "visiteTouristique"
+  OuDormir = "Ou dormir"
+  visiteTouristique = "visite touristique"
 
 
   onFullScreen(evt){
